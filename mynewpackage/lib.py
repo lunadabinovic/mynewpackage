@@ -11,7 +11,8 @@ pd.set_option('display.width', 200)
 
 
 def try_me():
-    print("I'm learning how to share my code")
+    return print("I'm learning how to share my code")
+
 
 
 def clean_data(data):
