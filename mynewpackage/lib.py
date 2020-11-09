@@ -56,7 +56,9 @@ def clean_data(data):
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
     import mynewpackage
-    folder_source, _ = split(mynewpackage.__file__)
-    df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
-    clean_data = clean_data(df)
-    print(' dataframe cleaned')
+    #folder_source, _ = split(mynewpackage.__file__)
+    #df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
+    #clean_data = clean_data(df)
+    #print(' dataframe cleaned')
+    try_me()
+
